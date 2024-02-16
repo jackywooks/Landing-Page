@@ -60,15 +60,21 @@ nav li {
   display: flex;
   padding: 5vw 10vw;
   align-items: center;
+  justify-content: space-around;
+}
+
+.hero-left{
+  width: 35vw;
 }
 
 .hero p{
     margin-top: 0;
-    width: 35vw;
 }
 
+
+
 .hero img {
-  width: 500px;
+  width: 35vw;
 }
 
 button {

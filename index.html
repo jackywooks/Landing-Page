@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,23 +12,90 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
+
 <body>
     <header>
         <nav>
-            <ul>
+            <ul class="nav-left">
                 <li>Header Logo</li>
-                <li>head link one</li>
-                <li>head link two</li>
-                <li>head link three</li>
+            </ul>
+            <ul class="nav-right">
+                <li><a href="#info">Info</a></li>
+                <li><a href="#quote">Quote</a></li>
+                <li><a href="#signup">SignUp</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="hero-left">
-            <h1>This webiste is awesome</h1>
-            <p>This website has some subtext that goes here</p>
+        <div class="hero">
+            <div class="hero-left">
+                <h1>This website is awesome</h1>
+                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color
+                    is lower constrast</p>
+                <button>Sign up</button>
+            </div>
+            <div class="hero-right">
+                <img src="./images/berkay-gumustekin-hRg1KL4-AUE-unsplash.jpg" alt="topicphoto">
+            </div>
+        </div>
+        <div class="info" id="info">
+            <h2>Photos of Different Shapes</h2>
+            <div class="box-container">
+                <figure class="box" id="box1">
+                    <img src="./images/dhruv-N9UuFddi7hs-unsplash.jpg" alt="box1photo">
+                    <figcaption>Photo by <a
+                            href="https://unsplash.com/@dhruvywuvy?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Dhruv</a>
+                        on <a
+                            href="https://unsplash.com/photos/low-angle-photography-of-steel-trusses-N9UuFddi7hs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                    </figcaption>
+                </figure>
+                <figure class="box" id="box2">
+                    <img src="./images/jon-tyson-MO5TvNuOyKg-unsplash.jpg" alt="box2photo">
+                    <figcaption>Photo by <a
+                            href="https://unsplash.com/@jontyson?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jon
+                            Tyson</a> on <a
+                            href="https://unsplash.com/photos/gray-framed-window-MO5TvNuOyKg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                    </figcaption>
+                </figure>
+                <figure class="box" id="box3">
+                    <img src="./images/lea-l-q--99IzY8Lw-unsplash.jpg" alt="box3photo">
+                    <figcaption>Photo by <a
+                            href="https://unsplash.com/@leladesign?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Lea
+                            L</a> on <a
+                            href="https://unsplash.com/photos/brown-and-black-heart-shaped-paper-q--99IzY8Lw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                    </figcaption>
+                </figure>
+                <figure class="box" id="box4">
+                    <img src="./images/michael-dziedzic-nc11Hg2ja-s-unsplash.jpg" alt="box4photo">
+                    <figcaption>Photo by <a
+                            href="https://unsplash.com/@lazycreekimages?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Michael
+                            Dziedzic</a> on <a
+                            href="https://unsplash.com/photos/black-and-red-triangle-illustration-nc11Hg2ja-s?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="quote" id="quote">
+            <blockquote>
+                <p>“When you want something, the whole universe conspires in order for you to achieve it”</p>
+                <footer><cite>— The Alchemist</cite></footer>
+            </blockquote>
+        </div>
+        <div class="banner" id="signup">
+            <div class="bannercontainer">
+                <div class="banner-left">
+                    <h3>Call to action! It's time!</h3>
+                    <p>Sign up for our product by click that button right over there!</p>
+                </div>
+                <div class="banner-right">
+                    <button>Sign up</button>
+                </div>
+            </div>
         </div>
     </main>
-    <footer></footer>
+    <footer>
+        <p>Copyright © The Odin Project 2021</p>
+    </footer>
 </body>
+
 </html>
